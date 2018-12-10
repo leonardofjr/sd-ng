@@ -1,31 +1,34 @@
 {
-    "services": [
+    "menu": [
         {
-            "service": "Janitorial Services",
-            "description" : "lorem",
-            "img" : {
-              "imgSrc": "#",
-              "altText": "asd"
-            },
-            "url": "janitorial-services"
+            "prefix" : "services",
+            "name": "Web Development",
+            "route": "web-development"
         },
         {
-            "service": "Floor Maintenance",
-            "description" : "lorem",
-            "img" : {
-              "imgSrc": "#",
-              "altText": "asd"
-            },
-            "url": "floor-maintenance"
+            "prefix" : "services",
+            "name": "Web Design",
+            "route": "web-design"
         },
         {
-            "service": "Green Cleaning",
-            "description" : "lorem",
-            "img" : {
-              "imgSrc": "#",
-              "altText": "asd"
-            },
-            "url": "green-cleaning-services"
+            "prefix" : "services",
+            "name": "Mobile + Responsive Design",
+            "route": "mobile-responsive-design"
+        },
+        {
+            "prefix" : "services",
+            "name": "Graphic Design",
+            "route": "graphic-design"
+        },
+        {
+            "prefix" : "services",
+            "name": "Strategy and Scope",
+            "route": "strategy-scope"
+        },
+        {
+            "prefix" : "services",
+            "name": "Partner with us",
+            "route": "partner-with-us"
         }
     ],
     "cleaningServicesList": {

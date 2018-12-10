@@ -1,0 +1,32 @@
+.active {
+     color: $secondary-color!important;
+}
+
+.content-header {
+    background: $secondary-color;
+    text-align: center;
+    color: #fff;
+
+    h1 {
+            font-size: 1.2em;
+
+    }
+}
+
+main {
+    padding: 1em 0;
+}
+
+.our-work-responsive-carousel .img-container {
+    padding: 2em;
+}
+
+footer  {
+    a {
+        color: #777;
+    }
+    
+    a:hover {
+        color: #bbb;
+    }
+}

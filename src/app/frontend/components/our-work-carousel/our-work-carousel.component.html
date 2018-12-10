@@ -1,0 +1,71 @@
+<div class="our-work-responsive-carousel">
+  <div class="img-container">
+    <img src="assets\jpeg\canada-visa-apps-logo.jpg" alt="a" class="img-fluid py-3">
+  </div>
+  <div class="img-container">
+    <img src="assets\jpeg\cholo-life-logo.jpg" alt="a" class="img-fluid py-3">
+  </div>
+  <div class="img-container">
+    <img src="assets\jpeg\isa-logo.jpg" alt="a" class="img-fluid py-3">
+  </div>
+  <div class="img-container">
+    <img src="assets\jpeg\leonardo-caballero-logo.jpg" alt="a" class="img-fluid py-3">
+  </div>
+  <div class="img-container">
+    <img src="assets\jpeg\los-caballeros-logo.jpg" alt="a" class="img-fluid py-3">
+  </div>
+  <div class="img-container">
+    <img src="assets\jpeg\peace-of-paradise-logo.jpg" alt="a" class="img-fluid py-3">
+  </div>
+  <div class="img-container">
+    <img src="assets\jpeg\sacred-light-healing-logo.jpg" alt="a" class="img-fluid py-3">
+  </div>
+  <div class="img-container">
+    <img src="assets\jpeg\triple-c-automotive-logo.jpg" alt="a" class="img-fluid py-3">
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+
+    $('.our-work-responsive-carousel').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+
+  })
+</script>

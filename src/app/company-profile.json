@@ -1,11 +1,10 @@
 {
-    "name": "ISA",
+    "name": "Startup Designs",
     "phone": "(647)-688-9189",
-    "email": "info@isaclean.ca",
-    "address": {
-        "streetAddress": "188 Bur Oak Avenue",
-        "city": "Markham",
-        "province": "Ontario",
-        "postal": "L6C-2M1"
-    }
+    "email": "info@startupdesigns.ca.ca",
+    "address":"62 Lost Pond Crescent", 
+    "city": "Stouffville",
+    "territory": "Ontario",
+    "postal": "L4A-0R4"
+    
 }

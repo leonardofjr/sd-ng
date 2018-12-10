@@ -1,0 +1,100 @@
+.main-navigation {
+    z-index: 1000;
+    top: 0;
+    height:100px;
+    padding: 2rem 0;
+    width: 100%;
+    opacity: .92;
+    position: fixed;
+    @include nav-bar-gradient;
+    
+    .logo {
+      padding: .5rem 0;
+    }
+    ul {
+      list-style: none;    
+      white-space: nowrap;
+    }
+    li {
+      display: inline-block;
+    }
+
+    a {
+          color: #fff!important;
+
+    }
+    .dropdown-item  {
+          color: #000!important;
+
+    }
+
+    @include breakpoint(xs) {
+        .container {
+          max-width: 564px;
+        }
+
+        svg {
+          height: 25px;
+          width: 125px;
+        }
+
+        .nav-item {
+          padding: 1em .3rem;
+          font-size: .8em;
+        }
+
+        .nav-link {
+          padding: 0;
+      }
+    }
+
+    @include breakpoint(sm) {
+      .container {
+        max-width: 720px;
+      }
+      .nav-item {
+          font-size: .9em;
+      }
+      svg {
+          width: 200px;
+      }
+    }
+
+
+    @include breakpoint(md) {
+      .container {
+        max-width: 960px;
+      }
+      .nav-item {
+          font-size: 1em;
+      }
+      svg {
+        width: 225px;
+      }
+    }
+
+    @include breakpoint(lg) {
+        .container {
+            max-width: 1140px;
+        }
+
+    }
+}
+
+.mobile-navigation  {
+  @include nav-bar-gradient;
+  min-width: 360px;  
+  position: fixed;
+  width: 100%;    
+  z-index: 1000;
+  svg {
+    width: 200px;
+    height: 15px;
+  }
+  ul {
+    list-style: none;    
+    white-space: nowrap;
+  }
+
+
+}

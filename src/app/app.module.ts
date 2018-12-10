@@ -8,11 +8,18 @@ import { HomeComponent } from './frontend/pages/home/home.component';
 import { OurFeaturesComponent } from './frontend/components/our-features/our-features.component';
 import { SliderComponent } from './frontend/components/slider/slider.component';
 import { CleaningGuaranteeComponent } from './frontend/components/cleaning-guarantee/cleaning-guarantee.component';
-import { ServiceAreasComponent } from './frontend/pages/service-areas/service-areas.component';
 import { PrimaryMenuComponent } from './frontend/components/menus/primary-menu/primary-menu.component';
 import { KeepHtmlPipe } from './pipes/keep-html.pipe';
-import { FloorRejuvenationDiscountComponent } from './frontend/components/floor-rejuvenation-discount/floor-rejuvenation-discount.component';
 import { SharedModule } from './shared.module';
+import { WebDesignComponent } from './frontend/pages/services/subpages/web-design/web-design.component';
+import { WebDevelopmentComponent } from './frontend/pages/services/subpages/web-development/web-development.component';
+import { MobileResponsiveDesignComponent } from './frontend/pages/services/subpages/mobile-responsive-design/mobile-responsive-design.component';
+import { GraphicDesignComponent } from './frontend/pages/services/subpages/graphic-design/graphic-design.component';
+import { StrategyScopeComponent } from './frontend/pages/services/subpages/strategy-scope/strategy-scope.component';
+import { PartnerWithUsComponent } from './frontend/pages/services/subpages/partner-with-us/partner-with-us.component';
+import { ServicesMenuComponent } from './frontend/components/menus/services-menu/services-menu.component';
+import { OurWorkCarouselComponent } from './frontend/components/our-work-carousel/our-work-carousel.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,10 +28,16 @@ import { SharedModule } from './shared.module';
     OurFeaturesComponent,
     SliderComponent,
     CleaningGuaranteeComponent,
-    ServiceAreasComponent,
     PrimaryMenuComponent,
     KeepHtmlPipe,
-    FloorRejuvenationDiscountComponent,
+    WebDesignComponent,
+    WebDevelopmentComponent,
+    MobileResponsiveDesignComponent,
+    GraphicDesignComponent,
+    StrategyScopeComponent,
+    PartnerWithUsComponent,
+    ServicesMenuComponent,
+    OurWorkCarouselComponent,
   ],
   imports: [
     HttpClientModule,

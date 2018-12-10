@@ -8,12 +8,12 @@ declare var require:any;
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent implements OnInit {
-  content = require('./content.json');
   companyProfile = require("src/app/company-profile.json");
   currentRoute;
   constructor(private router: Router) { }
 
   ngOnInit() {
+    console.log(this.router);
     this.currentRoute = this.router.url; 
   }
 

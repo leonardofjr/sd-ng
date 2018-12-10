@@ -2,19 +2,30 @@
     <h1 class="text-center">CONTACT</h1>
     <div id="contact-us" class="text-left">
         <div class="row">
-            <div class="col-12 col-md-8 col-lg-8 col-xl-9">
-                <h2 class="text-left">Get in touch</h2>
-                <p>Please feel free to contact us by any of the methods below or by filling out the form to the right. An ISA
-                    representative
-                    will respond promptly.</p>
-                <div class="img-container" style="width:100%;">
-                    <img style="width:100%;" src="./assets/isa-van-45.png" alt="cleaning van">
-                </div>
-            </div>
-            <!-- End of Content Cointainer -->
+            <div class="col-12 col-sm-4 ">
+                <h2>Get in Touch</h2>
             
-            <div class="col-12 col-md-4 col-lg-4 col-xl-3">
-                <img src="./assets/fully-insured.gif" class="img-fluid py-5" alt="Fully Insured">
+                <p>To request a quote or a meeting to discuss a project, please complete this form.</p>
+            
+                <p>Alternatively, please call:
+                    {{companyProfile.phone}}
+                </p>
+            
+                <h3>Project brief</h3>
+                <p>If you would like to provide us with a more comprehensive project brief. <a href="project-brief"></a>
+                    click here</p>
+            
+                <h3>Web design brief</h3>
+                <p>We have a few questions regarding the look and feel of your website to help us understand your brand and
+                    positioning <a href="web-design-brief"></a> click here</p>
+            
+                <h3>Address</h3>
+                <p>
+                 {{companyProfile.address}}<br> {{companyProfile.city}} {{companyProfile.territory}}<br>{{companyProfile.postal}}
+                </p>
+            </div>
+                
+            <div class="col-12 col-sm-8 ">
                 <app-contact-form></app-contact-form>
             </div>
         </div>

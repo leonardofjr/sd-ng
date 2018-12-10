@@ -1,0 +1,22 @@
+{
+    "post": [
+        {
+            "img_src": "isa-website-home.png",
+            "alt_text": "a",
+            "website_url": "https://isaclean.ca",
+            "services_provided": "ISA hired us to create their whole brand identity. We were hired to design their Logo, Business Cards, Presentation Folders and their Website. The website was created using Angular 6."
+        },
+        {
+            "img_src": "slh-website-home.png",
+            "alt_text": "a",
+            "website_url": "https://sacredlighthealing.ca",
+            "services_provided": "a"
+        },
+        {
+            "img_src": "tca-website-home.png",
+            "alt_text": "a",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "a"
+        }
+    ]
+}

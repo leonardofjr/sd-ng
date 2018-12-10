@@ -1,62 +1,43 @@
-<app-slider></app-slider>
-<app-floor-rejuvenation-discount></app-floor-rejuvenation-discount>
-
-<div class="primary-background-center d-flex">
-    <div class="container text-center align-items-md-center align-self-md-center">
-            <h2>Why Us?</h2>
-            <div class="row">
-                <div class="col-12 col-md-4 my-5 text-center" *ngFor="let item of content.whyChooseUs.features">
-                    <div class="content">
-                        <div class="content-header">
-                            <!--<img src="{{item.icon.url}}" alt="{{item.icon.altText}}" class="text-center">-->
-                            <h5 class="text-center">{{item.heading}}</h5>
-                        </div>
-                        <!-- End of Content Header -->
-                        <div class="content-body">
-                            <p>{{item.text}}</p>
-                        </div>
-                        <!-- End of Content Body -->
-                    </div>
-                </div>
-            </div>
+<div class="jumbotron jumbotron-fluid">
+    <div>
+        <div style="position: absolute; top: 50%; left: 50%; color: #fff; transform: translate(-50%, -50%)">
+            <h1 class="main-heading">Multi-page is a thing of the past, Get a bigger return on your investment with
+                Single Page Applications.</h1>
+        </div>
     </div>
 </div>
+<app-our-work-carousel></app-our-work-carousel>
+<div class="fullwidth-row">
+    <section class="container">
+        <h2 class="text-center">We are a local web design & development company based in Markham</h2>
+        <p class="pb-5">
 
+        </p>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <p class="">
+                    Startup Designs is a full-service digital shop, specialising in web design & Drupal website
+                    development and we can help your business with branding and an online presence.
+                </p>
+                <p>
+                    Our experienced web developers will integrate a CMS platform such as Drupal or WordPress and custom
+                    fit your design so that it\'s easy to use and scalable for the future.
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <p class="">
+                    We produce exceptional designs that are made-to-measure. We work through a creative process to
+                    design and develop a suitable identity and User eXperience which greatly factors in your audience.
+                </p>
+                <p>
+                    We\'ve been around for more than 18 years and there\'s not much that we haven\'t done so call us
+                    today to discuss your next project.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
 <!-- Our Features -->
 <app-our-features></app-our-features>
-
-<div class="image-background-1 d-flex">
-            <div class="container text-center align-items-md-center align-self-md-center">
-                <h2>WE WILL HELP YOU PROVIDE A HEALTHY CLEAN ENVIRONMENT</h2>
-                <p class="pb-5 pt-2">ISA is committed to providing the highest quality commercial cleaning service available by
-                    exceeding the
-                    expectations of
-                    our clients, as well as their employees, patients, students, and other visitors to their premises or
-                    facilities.</p>
-                
-                <div class="row">
-                    <div class="col-12 col-md-4" *ngFor="let item of ourCoreValues.values; index as i">
-                        <h4>{{item.heading}}</h4>
-                        <p>{{item.text}}</p>
-                    </div>
-                </div>
-            </div>
-</div>
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-4 col-lg-4 col-xl-3">
-            <img src="./assets/fully-insured.gif" class="img-fluid py-5" alt="Fully Insured">
-            <app-contact-form></app-contact-form>
-        </div>
-        <div class="col-12 col-md-8 col-lg-8 col-xl-9">
-                <img class="img-fluid" src="./assets/isa-van-45.png" alt="cleaning van">
-                <h2>WHATEVER THE JOB IS WE CAN HANDLE IT</h2>
-                <app-call-to-action></app-call-to-action>
-                <p class="pt-5">Contact us today to find out why we are the.<a routerLink="/services/janitorial-services"> best commercial cleaning service</a> in Markham and throughout the Great Toronto Area.</p>
-        </div>
-    </div>
-</div>
-
 

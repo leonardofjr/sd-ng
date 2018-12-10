@@ -7,47 +7,36 @@
 </router-outlet>
 </main>
 
-
-<footer class="primary-background mt-5 py-3">
-  <div class="container">
-    <div class="row">
-        <div class="col-12 col-md-8">
-          <h2 class="pb-4">WE STRIVE TO PROVIDE YOU WITH A HEALTHY CLEAN ENVIRONMENT</h2>
-           <ul class="nav flex-column">
-              <li class="nav-item active">
-                <a class="nav-link" routerLink="">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" >Services</a>
-                <ul class="nav flex-column pl-2">
-                  <li><a class="nav-link" routerLink="services/janitorial-services">Janitorial Services</a>
-                  <li><a class="nav-link" routerLink="services/floor-maintenance">Floor Maintenance</a>
-                  <li><a class="nav-link" routerLink="services/green-cleaning-services">Green Cleaning</a>
-</li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/our-difference">Our Difference</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/our-clients">Our Clients</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="/contact">Contact</a>
-              </li>
-           </ul>
-        </div>
-        <div class="col-12 col-md-4">
-            <img class="img-fluid pt-5" src="./assets/isa-van-right.gif" alt="An side view of our white company van">
-        </div>
+<footer>
+<section class="top-footer container py-5">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+      <h2>
+        {{companyProfile.name}}
+      </h2>
+      <div>
+        <p>
+         {{companyProfile.address}}<br> {{companyProfile.city}} {{companyProfile.territory}}<br>{{companyProfile.postal}}
+        </p>
+        <p>
+          {{companyProfile.phone}}
+        </p>
+      </div>
     </div>
-    <div class="text-center pt-5">
-      <small>ISA Copyright &copy; {{year}}</small>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+      <h3>Our Services</h3>
+      <ul>
+           <li *ngFor="let item of servicesMenu" > <a  routerLink="{{item.prefix}}/{{item.route}}" routerLinkActive="active">{{item.name}}</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+      <h3>Our Work</h3>
+      <ul>
+        <li><a href="/work">Check out our work</a></li>
+      </ul>
     </div>
   </div>
+</section>
 
 </footer>
 

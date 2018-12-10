@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white thick-border-bottom">
+<nav class="navbar navbar-expand-lg navbar-light bg-white thick-border-bottom main-navigation ">
   <div class="container">
-  <a class="navbar-brand" routerLink=""><img id="logo" class="img-fluid" src="./assets/logo.svg" alt=""></a>
+  <a class="navbar-brand" routerLink=""><img id="logo" class="img-fluid" src="./assets/svg/logo.svg" alt=""></a>
   <button class="navbar-toggler my-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,18 +16,15 @@
 
         <li class="nav-item dropdown" routerLinkActive="active">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" routerLink="services/janitorial-services" routerLinkActive="active">Janitorial Services</a>
-            <a class="dropdown-item" routerLink="/services/floor-maintenance" routerLinkActive="active">Floor Maintenance</a>
-            <a class="dropdown-item" routerLink="/services/green-cleaning-services" routerLinkActive="active">Green Cleaning</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+          
+            <a  class="dropdown-item" routerLink='{{item.prefix}}/{{item.route}}' routerLinkActive="active"  *ngFor="let item of servicesMenu">{{item.name}}</a>
+        
           </div>
         </li>
 
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="/our-difference">Our Difference</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="/our-clients">Our Clients</a>
+        <a class="nav-link" routerLink="/work">Work</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link" routerLink="/contact">Contact</a>
