@@ -70,7 +70,7 @@
       }
       svg {
         width: 225px;
-      }
+     }
     }
 
     @include breakpoint(lg) {
@@ -91,10 +91,17 @@
     width: 200px;
     height: 15px;
   }
+    .nav-link, .nav-link:not([href]):not([tabindex]) {
+          color: #fff;
+
+    }
+
+    .dropdown-item {
+      color: #000;
+    }
+
   ul {
     list-style: none;    
     white-space: nowrap;
   }
-
-
 }

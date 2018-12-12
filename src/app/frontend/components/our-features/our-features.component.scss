@@ -1,38 +1,11 @@
-.char-checkmark {
-    font-size: 2em;
+@import "src/scss/helpers/mixins";
+@import "src/scss/helpers/variables";
+
+
+.featured-services-container p {
+    color: #000;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {} 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    #our-features {
-         display: flex;
-         flex-direction: row;
-    }
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
-    #our-features .column-2 {
-        flex-basis: 70%;
-    }
-    #our-features .column-1, #our-features .column-3 {
-        flex-basis: 15%;
-    }
-    #our-features .column-2 img {
-       width: 40%;
-       padding-top: 120px;
-    }
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+.featured-services-container h2, .featured-services-container h3 {
+    color: $secondary-color;
 }
