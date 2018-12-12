@@ -1,5 +1,10 @@
-.active {
+.active, .active a {
      color: $secondary-color!important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: $secondary-color!important;
+    background: initial;
 }
 
 .content-header {
@@ -13,20 +18,3 @@
     }
 }
 
-main {
-    padding: 1em 0;
-}
-
-.our-work-responsive-carousel .img-container {
-    padding: 2em;
-}
-
-footer  {
-    a {
-        color: #777;
-    }
-    
-    a:hover {
-        color: #bbb;
-    }
-}

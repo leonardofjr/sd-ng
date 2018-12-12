@@ -8,24 +8,13 @@
 @import './scss/base/colors.scss';
 
 // Components (contains each self-contained component in its own .scss partial)
-@import './scss/components/jumbotron.scss';
 @import './scss/components/breadcrumbs.scss';
-@import './scss/components/gallery.scss';
-@import './scss/components/dynamic-tab-integration.scss';
 
 // Layout (contains styling for larger layout components; e.g. nav, header, footer, )
-@import './scss/layout/header.scss';
 @import './scss/layout/navigation.scss';
 @import './scss/layout/footer.scss';
 
 // Pages (contains page-specific styling, if necessary)
-@import './scss/pages/home.scss';
-@import './scss/pages/about.scss';
-@import './scss/pages/services.scss';
-@import './scss/pages/case-studies.scss';
-@import './scss/pages/work.scss';
-@import './scss/pages/support.scss';
-@import './scss/pages/contact.scss';
 
 // Themes (contains styling for different themes)
 @import './scss/themes/theme.scss';
