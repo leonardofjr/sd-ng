@@ -6,15 +6,17 @@
     width: 100%;
     opacity: .92;
     position: fixed;
-    @include nav-bar-gradient;
-    
+    background: #000;    
+  
     .logo {
       padding: .5rem 0;
     }
+  
     ul {
       list-style: none;    
       white-space: nowrap;
     }
+  
     li {
       display: inline-block;
     }

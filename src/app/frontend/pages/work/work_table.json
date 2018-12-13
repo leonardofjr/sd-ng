@@ -8,15 +8,15 @@
         },
         {
             "img_src": "slh-website-home.png",
-            "alt_text": "a",
+            "alt_text": "",
             "website_url": "https://sacredlighthealing.ca",
-            "services_provided": "a"
+            "services_provided": "Sacred Light Healing Centre asked us to design a website to promote their alternative healing solutions. This website was designed using Laravel Framework. We were also hired to revise and convert their logo to a vector format."
         },
         {
             "img_src": "tca-website-home.png",
             "alt_text": "a",
             "website_url": "https://triplecauto.ca",
-            "services_provided": "a"
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
         }
     ]
 }

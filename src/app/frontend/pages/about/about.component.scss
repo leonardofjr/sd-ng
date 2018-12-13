@@ -1,0 +1,14 @@
+@import "src/scss/helpers/mixins";
+@import "src/scss/helpers/variables";
+
+.container-fluid {
+    background: $primary-color;
+    color: #fff;
+
+    h3 {
+        font-weight: 100;
+    }
+    b {
+        font-weight: 600;
+    }
+}
