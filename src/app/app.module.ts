@@ -19,6 +19,7 @@ import { StrategyScopeComponent } from './frontend/pages/services/subpages/strat
 import { PartnerWithUsComponent } from './frontend/pages/services/subpages/partner-with-us/partner-with-us.component';
 import { ServicesMenuComponent } from './frontend/components/menus/services-menu/services-menu.component';
 import { OurWorkCarouselComponent } from './frontend/components/our-work-carousel/our-work-carousel.component';
+import { BreadcrumbComponent } from './frontend/components/breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { OurWorkCarouselComponent } from './frontend/components/our-work-carouse
     PartnerWithUsComponent,
     ServicesMenuComponent,
     OurWorkCarouselComponent,
+    BreadcrumbComponent,
   ],
   imports: [
     HttpClientModule,
