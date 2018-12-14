@@ -1,10 +1,10 @@
 <div class="container">
   <div class="row pb-5 d-flex align-items-center" *ngFor="let post of data">
 
-    <div class="col-md-6">
+    <div class="col-sm-8">
       <img src='assets/png/{{post["img_src"]}}' class="img-fluid">
     </div>
-    <div class="col-md-6">
+    <div class="col-sm-4">
       <b>Services Provided:</b>
       <p>{{post["services_provided"]}}</p>
       <a href='{{post["website_url"]}}'  class="btn btn-primary">Launch Website</a>
