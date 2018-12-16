@@ -22,7 +22,8 @@ const routes: Routes = [
     { path: 'partner-with-us', component: PartnerWithUsComponent },
   ]},
   { path: 'work', loadChildren: './frontend/pages/work/work.module#WorkModule' },
-  { path: 'contact', loadChildren: './frontend/pages/contact/contact.module#ContactModule' }
+  { path: 'contact', loadChildren: './frontend/pages/contact/contact.module#ContactModule' },
+  { path: 'privacy-policy', loadChildren: './frontend/pages/privacy-policy/privacy-policy.module#PrivacyPolicyModule' },
 ];
 @NgModule({
   exports: [RouterModule],
