@@ -11,7 +11,6 @@ export class PrimaryMenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.servicesMenu);
   }
 
 }
