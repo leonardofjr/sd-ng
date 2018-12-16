@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CallToActionComponent } from './frontend/components/call-to-action/call-to-action.component';
 import { ContactFormComponent } from './frontend/components/contact-form/contact-form.component';
 import { FormsModule } from '@angular/forms';
 import { RecaptchaModule } from 'ng-recaptcha';
@@ -13,10 +12,10 @@ import { RecaptchaModule } from 'ng-recaptcha';
 
   ],
   declarations: [
-    CallToActionComponent, 
-    ContactFormComponent],
+    ContactFormComponent
+  ],
   exports: [
-    ContactFormComponent,
-    CallToActionComponent]
+    ContactFormComponent
+  ]
 })
 export class SharedModule { }

@@ -7,7 +7,6 @@ import { ServicesComponent } from './frontend/pages/services/services.component'
 import { HomeComponent } from './frontend/pages/home/home.component';
 import { OurFeaturesComponent } from './frontend/components/our-features/our-features.component';
 import { SliderComponent } from './frontend/components/slider/slider.component';
-import { CleaningGuaranteeComponent } from './frontend/components/cleaning-guarantee/cleaning-guarantee.component';
 import { PrimaryMenuComponent } from './frontend/components/menus/primary-menu/primary-menu.component';
 import { KeepHtmlPipe } from './pipes/keep-html.pipe';
 import { SharedModule } from './shared.module';
@@ -28,7 +27,6 @@ import { BreadcrumbComponent } from './frontend/components/breadcrumb/breadcrumb
     HomeComponent,
     OurFeaturesComponent,
     SliderComponent,
-    CleaningGuaranteeComponent,
     PrimaryMenuComponent,
     KeepHtmlPipe,
     WebDesignComponent,
