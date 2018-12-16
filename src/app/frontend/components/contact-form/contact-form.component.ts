@@ -29,6 +29,7 @@ export class ContactFormComponent implements OnInit {
 
   onSubmit(e, formData) {
       e.preventDefault();
+      //console.log(formData);
       this.mailService.sendMail(formData)
         .subscribe((data) => {
           this.router.navigateByUrl('');
