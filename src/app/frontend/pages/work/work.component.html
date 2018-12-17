@@ -1,13 +1,31 @@
-<div class="container">
-  <div class="row pb-5 d-flex align-items-center" *ngFor="let post of data">
-
-    <div class="col-sm-8">
-      <img src='assets/png/{{post["img_src"]}}' class="img-fluid">
-    </div>
-    <div class="col-sm-4">
-      <b>Services Provided:</b>
-      <p>{{post["services_provided"]}}</p>
-      <a href='{{post["website_url"]}}'  class="btn btn-primary">Launch Website</a>
-    </div>
+<div id="view-portfolio-selector">
+  <div class="container">
+    <button (click) = 'changeSelectedValue("logo")' value="logo">Logo</button>
+    <button (click)='changeSelectedValue("web-development")'>Web Development</button>
+    <button (click)='changeSelectedValue("graphic-design")'>Graphic Design</button>
   </div>
+  </div>
+
+<div class="container">
+
+  
+  <!-- Getting Data from JSON -->
+  <div *ngFor="let post of data">
+  <!-- Comparing JSON value to the Selected value -->
+    <div  class="row pb-5 d-flex align-items-center" *ngIf='post["service_type"] === this.selected'>
+     <!-- Outputting Web Development Data -->
+      <div class="col-sm-7"  >
+        <img src='assets/work/{{post["img_src"]}}' class="img-fluid">
+      </div>
+      <div class="col-sm-5">
+        <b>Services Provided:</b> 
+        <p>{{post["services_provided"]}}</p>
+        <a *ngIf='this.selected === "web-development"' href='{{post["website_url"]}}'  class="btn btn-primary">Launch Website</a>
+      </div>
+     <!-- Outputting Web Development Data ENDS HERE -->
+    </div>
+
+    
+  </div>
+  
 </div>

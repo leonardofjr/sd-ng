@@ -3,18 +3,84 @@
         {
             "img_src": "isa-website-home.png",
             "alt_text": "a",
+            "service_type": "web-development",
             "website_url": "https://isaclean.ca",
             "services_provided": "ISA hired us to create their whole brand identity. We were hired to design their Logo, Business Cards, Presentation Folders and their Website. The website was created using Angular 6."
         },
         {
             "img_src": "slh-website-home.png",
             "alt_text": "",
+            "service_type": "web-development",
             "website_url": "https://sacredlighthealing.ca",
             "services_provided": "Sacred Light Healing Centre asked us to design a website to promote their alternative healing solutions. This website was designed using Laravel Framework. We were also hired to revise and convert their logo to a vector format."
         },
         {
             "img_src": "tca-website-home.png",
             "alt_text": "a",
+            "service_type": "web-development",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "canada-visa-apps-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "pilita-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "cholo-life-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "isa-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "leonardo-caballero-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "los-caballeros-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "peace-of-paradise-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "sacred-light-healing-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
+            "website_url": "https://triplecauto.ca",
+            "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
+        },
+        {
+            "img_src": "triple-c-automotive-logo.jpg",
+            "alt_text": "a",
+            "service_type": "logo",
             "website_url": "https://triplecauto.ca",
             "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
         }
