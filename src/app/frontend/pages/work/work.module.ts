@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 
 import { WorkRoutingModule } from './work-routing.module';
 import { WorkComponent } from './work.component';
+import { WebDevelopmentComponent } from './subpages/web-development/web-development.component';
+import { GraphicDesignComponent } from './subpages/graphic-design/graphic-design.component';
+import { LogoComponent } from './subpages/logo/logo.component';
 
 
 @NgModule({
@@ -12,6 +15,9 @@ import { WorkComponent } from './work.component';
   ],
   declarations: [
     WorkComponent,
+    WebDevelopmentComponent,
+    GraphicDesignComponent,
+    LogoComponent,
   ]
 })
 export class WorkModule { }

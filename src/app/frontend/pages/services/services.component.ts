@@ -13,7 +13,6 @@ export class ServicesComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    console.log(this.router);
     this.currentRoute = this.router.url; 
   }
 

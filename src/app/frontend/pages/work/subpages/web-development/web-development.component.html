@@ -1,0 +1,14 @@
+<!-- Getting Data from JSON -->
+<div class="row pb-5 d-flex align-items-center"  *ngFor="let post of data">
+    <!-- Outputting Web Development Data -->
+    <div class="col-sm-7">
+      <img src='assets/work/{{post["img_src"]}}' class="img-fluid">
+    </div>
+    <div class="col-sm-5">
+      <b>Project Description:</b>
+      <p>{{post["services_provided"]}}</p>
+      <a href='{{post["website_url"]}}' class="btn btn-primary">Launch
+        Website</a>
+    </div>
+    <!-- Outputting Web Development Data ENDS HERE -->
+</div>

@@ -1,26 +1,6 @@
 <div class="our-work-responsive-carousel my-5">
-  <div class="img-container">
-    <img src="assets\jpeg\canada-visa-apps-logo.jpg" alt="a" class="img-fluid py-3">
+  <div class="img-container" *ngFor="let post of data">
+    <img src='assets\work\{{post["img_src"]}}' alt="a" class="img-fluid py-3">
   </div>
-  <div class="img-container">
-    <img src="assets\jpeg\cholo-life-logo.jpg" alt="a" class="img-fluid py-3">
-  </div>
-  <div class="img-container">
-    <img src="assets\jpeg\isa-logo.jpg" alt="a" class="img-fluid py-3">
-  </div>
-  <div class="img-container">
-    <img src="assets\jpeg\leonardo-caballero-logo.jpg" alt="a" class="img-fluid py-3">
-  </div>
-  <div class="img-container">
-    <img src="assets\jpeg\los-caballeros-logo.jpg" alt="a" class="img-fluid py-3">
-  </div>
-  <div class="img-container">
-    <img src="assets\jpeg\peace-of-paradise-logo.jpg" alt="a" class="img-fluid py-3">
-  </div>
-  <div class="img-container">
-    <img src="assets\jpeg\sacred-light-healing-logo.jpg" alt="a" class="img-fluid py-3">
-  </div>
-  <div class="img-container">
-    <img src="assets\jpeg\triple-c-automotive-logo.jpg" alt="a" class="img-fluid py-3">
-  </div>
+
 </div>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FunctionsService } from '../../../functions.service';
+declare var require: any;
 
 @Component({
   selector: 'app-our-work-carousel',
@@ -8,9 +9,22 @@ import { FunctionsService } from '../../../functions.service';
 })
 export class OurWorkCarouselComponent implements OnInit {
   constructor(private functions: FunctionsService) { }
-  
+  dataSource = require('../../../work_table.json').post;
+  data = [];
+
   ngOnInit() {
-    this.functions.run();
+    this.filterData();
+
   }
 
+  ngAfterViewInit() {
+    this.functions.run();
+
+  }
+
+  filterData() {
+    this.dataSource.forEach((a, i) => {
+        this.data.push(a);
+    });
+  }
 }

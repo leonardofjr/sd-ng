@@ -7,16 +7,8 @@ declare var require: any;
   styleUrls: ['./work.component.scss']
 })
 export class WorkComponent implements OnInit {
-  data = require('./work_table.json').post;
-  selected = "web-development";
   constructor() { }
 
   ngOnInit() {
   }
-
-  changeSelectedValue(e) {
-    this.selected = e;  
-    console.log(this.selected);
-  }
-
 }
