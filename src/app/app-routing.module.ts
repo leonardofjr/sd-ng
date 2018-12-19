@@ -22,7 +22,9 @@ const routes: Routes = [
   { path: 'work', loadChildren: './frontend/pages/work/work.module#WorkModule' },
   { path: 'contact', loadChildren: './frontend/pages/contact/contact.module#ContactModule' },
   { path: 'privacy-policy', loadChildren: './frontend/pages/privacy-policy/privacy-policy.module#PrivacyPolicyModule' },
+  { path: 'terms-conditions', loadChildren: './frontend/pages/terms-conditions/terms-conditions.module#TermsConditionsModule' },
 ];
+
 @NgModule({
   exports: [RouterModule],
   imports: [RouterModule.forRoot(routes)],
