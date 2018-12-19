@@ -15,7 +15,6 @@ import { WebDevelopmentComponent } from './frontend/pages/services/subpages/web-
 import { MobileResponsiveDesignComponent } from './frontend/pages/services/subpages/mobile-responsive-design/mobile-responsive-design.component';
 import { GraphicDesignComponent } from './frontend/pages/services/subpages/graphic-design/graphic-design.component';
 import { StrategyScopeComponent } from './frontend/pages/services/subpages/strategy-scope/strategy-scope.component';
-import { PartnerWithUsComponent } from './frontend/pages/services/subpages/partner-with-us/partner-with-us.component';
 import { ServicesMenuComponent } from './frontend/components/menus/services-menu/services-menu.component';
 import { OurWorkCarouselComponent } from './frontend/components/our-work-carousel/our-work-carousel.component';
 import { BreadcrumbComponent } from './frontend/components/breadcrumb/breadcrumb.component';
@@ -34,7 +33,6 @@ import { BreadcrumbComponent } from './frontend/components/breadcrumb/breadcrumb
     MobileResponsiveDesignComponent,
     GraphicDesignComponent,
     StrategyScopeComponent,
-    PartnerWithUsComponent,
     ServicesMenuComponent,
     OurWorkCarouselComponent,
     BreadcrumbComponent,

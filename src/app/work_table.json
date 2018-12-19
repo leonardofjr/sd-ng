@@ -4,7 +4,7 @@
             "img_src": "isa-website-home.png",
             "alt_text": "a",
             "service_type": "web-development",
-            "website_url": "https://isaclean.ca",
+            "website_url": "http://isaclean.ca",
             "services_provided": "ISA hired us to create their whole brand identity. We were hired to design their Logo, Business Cards, Presentation Folders and their Website. The website was created using Angular 6."
         },
         {
@@ -18,7 +18,7 @@
             "img_src": "tca-website-home.png",
             "alt_text": "a",
             "service_type": "web-development",
-            "website_url": "https://triplecauto.ca",
+            "website_url": "http://triplecauto.ca",
             "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
         },
         {
@@ -43,7 +43,7 @@
             "services_provided": "Triple C Automotive was looking to provide their clients with an easy and quick user experience. Technologies that were utlizied were Laravel and Vue.js to build a quick and modern feel."
         },
         {
-            "img_src": "isa-logo.jpg",
+            "img_src": "isa-logo.png",
             "alt_text": "a",
             "service_type": "logo",
             "website_url": "https://triplecauto.ca",

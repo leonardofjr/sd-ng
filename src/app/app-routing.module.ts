@@ -7,7 +7,6 @@ import { WebDevelopmentComponent } from './frontend/pages/services/subpages/web-
 import { MobileResponsiveDesignComponent } from './frontend/pages/services/subpages/mobile-responsive-design/mobile-responsive-design.component';
 import { GraphicDesignComponent } from './frontend/pages/services/subpages/graphic-design/graphic-design.component';
 import { StrategyScopeComponent } from './frontend/pages/services/subpages/strategy-scope/strategy-scope.component';
-import { PartnerWithUsComponent } from './frontend/pages/services/subpages/partner-with-us/partner-with-us.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
@@ -19,7 +18,6 @@ const routes: Routes = [
     { path: 'mobile-responsive-design', component: MobileResponsiveDesignComponent },
     { path: 'graphic-design', component: GraphicDesignComponent },
     { path: 'strategy-scope', component: StrategyScopeComponent },
-    { path: 'partner-with-us', component: PartnerWithUsComponent },
   ]},
   { path: 'work', loadChildren: './frontend/pages/work/work.module#WorkModule' },
   { path: 'contact', loadChildren: './frontend/pages/contact/contact.module#ContactModule' },
