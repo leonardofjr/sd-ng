@@ -8,8 +8,19 @@ export class FunctionsService {
 
   constructor() { }
 
+  scrollToTop(event) {
+    // We will scroll to the top of the page 
+    let scrollToTop = window.setInterval(() => {
+      let pos = window.pageYOffset;
+      if (pos > 0) {
+          window.scrollTo(0, pos - 20); // how far to scroll on each step
+          } else {
+              window.clearInterval(scrollToTop);
+          }
+      }, 10);
+  }
+  
   run() {
-
       $('.our-work-responsive-carousel').slick({
         dots: false,
         infinite: true,

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import { HttpClient } from '@angular/common/http';
+import { FunctionsService } from './functions.service';
 import { User } from './User';
 import { Router } from '@angular/router';
 
@@ -17,23 +17,12 @@ export class AppComponent implements OnInit {
   date = new Date();
   year = this.date.getFullYear();
 
-  constructor(private router : Router) {}
+  constructor(private router : Router, private functions: FunctionsService) {}
 
   ngOnInit() {
 
   }
 
-  scrollToTop(event) {
-    // We will scroll to the top of the page 
-    let scrollToTop = window.setInterval(() => {
-      let pos = window.pageYOffset;
-      if (pos > 0) {
-          window.scrollTo(0, pos - 20); // how far to scroll on each step
-          } else {
-              window.clearInterval(scrollToTop);
-          }
-      }, 10);
-  }
 }
 
 
