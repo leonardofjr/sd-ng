@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FunctionsService } from '../../../functions.service';
+import { PortfolioService } from 'src/app/portfolio.service';
 declare var require: any;
 
 @Component({
@@ -8,13 +9,11 @@ declare var require: any;
   styleUrls: ['./our-work-carousel.component.scss']
 })
 export class OurWorkCarouselComponent implements OnInit {
-  constructor(private functions: FunctionsService) { }
-  dataSource = require('../../../work_table.json').post;
-  data = [];
+  constructor(private functions: FunctionsService, private portfolio: PortfolioService) { }
+  data = require('../../../work_table.json').post;
 
   ngOnInit() {
-    this.filterData();
-
+    this.data = this.portfolio.shuffle(this.data);
   }
 
   ngAfterViewInit() {
@@ -22,9 +21,5 @@ export class OurWorkCarouselComponent implements OnInit {
 
   }
 
-  filterData() {
-    this.dataSource.forEach((a, i) => {
-        this.data.push(a);
-    });
-  }
 }
+

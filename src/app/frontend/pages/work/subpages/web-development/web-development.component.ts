@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from '../../../../../portfolio.service';
 declare var require: any;
 
 @Component({
@@ -7,28 +8,12 @@ declare var require: any;
   styleUrls: ['./web-development.component.scss']
 })
 export class WebDevelopmentComponent implements OnInit {
-  dataSource = require('../../../../../work_table.json').post;
-  data = [];
-  constructor() { }
+
+  constructor(private portfolio : PortfolioService) { }
+  data;
 
   ngOnInit() {
-    this.filterData();
-    this.data = this.shuffle(this.data);
+    this.data = this.portfolio.filterData('web-development');
+    this.data = this.portfolio.shuffle(this.data);
   }
-
-  filterData() {
-    this.dataSource.forEach((a, i) => {
-       if (a["service_type"] === "web-development")
-        this.data.push(a);
-    })
-  }
-
-  shuffle(a) {
-      for (let i = a.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [a[i], a[j]] = [a[j], a[i]];
-      }
-      return a;
-  }
-
 }
