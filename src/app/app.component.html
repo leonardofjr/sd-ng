@@ -11,7 +11,7 @@
 
 <main class="mb-5">
 <!--<app-breadcrumb></app-breadcrumb>-->
-<router-outlet>
+<router-outlet (activate)="scrollToTop($event)">
 </router-outlet>
 </main>
 

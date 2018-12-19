@@ -22,4 +22,12 @@ export class AppComponent implements OnInit {
   ngOnInit() {
 
   }
+
+  scrollToTop(event) {
+    // We will scroll to the top of the page 
+    window.scroll(0,0);
+    
+  }
 }
+
+
