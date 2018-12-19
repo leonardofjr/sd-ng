@@ -18,6 +18,7 @@ import { StrategyScopeComponent } from './frontend/pages/services/subpages/strat
 import { ServicesMenuComponent } from './frontend/components/menus/services-menu/services-menu.component';
 import { OurWorkCarouselComponent } from './frontend/components/our-work-carousel/our-work-carousel.component';
 import { BreadcrumbComponent } from './frontend/components/breadcrumb/breadcrumb.component';
+import { FooterComponent } from './frontend/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { BreadcrumbComponent } from './frontend/components/breadcrumb/breadcrumb
     ServicesMenuComponent,
     OurWorkCarouselComponent,
     BreadcrumbComponent,
+    FooterComponent,
   ],
   imports: [
     HttpClientModule,
