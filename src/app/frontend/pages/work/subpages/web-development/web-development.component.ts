@@ -13,6 +13,7 @@ export class WebDevelopmentComponent implements OnInit {
 
   ngOnInit() {
     this.filterData();
+    this.data = this.shuffle(this.data);
   }
 
   filterData() {
@@ -20,6 +21,14 @@ export class WebDevelopmentComponent implements OnInit {
        if (a["service_type"] === "web-development")
         this.data.push(a);
     })
+  }
+
+  shuffle(a) {
+      for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
   }
 
 }
