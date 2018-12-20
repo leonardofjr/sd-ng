@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "isa-ng": {
+    "startup-designs-ng": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "isa-ng:build"
+            "browserTarget": "startup-designs-ng:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "isa-ng:build:production"
+              "browserTarget": "startup-designs-ng:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "isa-ng:build"
+            "browserTarget": "startup-designs-ng:build"
           }
         },
         "test": {
@@ -103,7 +103,7 @@
         }
       }
     },
-    "isa-ng-e2e": {
+    "startup-designs-ng-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -111,11 +111,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "isa-ng:serve"
+            "devServerTarget": "startup-designs-ng:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "isa-ng:serve:production"
+              "devServerTarget": "startup-designs-ng:serve:production"
             }
           }
         },
@@ -131,7 +131,7 @@
       }
     }
   },
-  "defaultProject": "isa-ng",
+  "defaultProject": "startup-designs-ng",
   "schematics": {
     "@schematics/angular:component": {
       "styleext": "scss"
