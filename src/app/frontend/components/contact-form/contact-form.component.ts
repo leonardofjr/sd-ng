@@ -28,6 +28,7 @@ export class ContactFormComponent implements OnInit {
   }
 
   onSubmit(e, formData) {
+    console.log(formData);
       e.preventDefault();
       //console.log(formData);
       this.mailService.sendMail(formData)

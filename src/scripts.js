@@ -30,12 +30,19 @@ $(document).ready(function () {
                     else {
                         $('.flash-message-email').addClass('d-none');
                     }
-                    if (response.contactFormMessage) {
-                        $('.flash-message-message span').html(response.contactFormMessage[0]);
-                        $('.flash-message-message').removeClass('d-none');
+                    if (response.contactFormPhone) {
+                        $('.flash-message-phone span').html(response.contactFormPhone[0]);
+                        $('.flash-message-phone').removeClass('d-none');
                     }
                     else {
-                        $('.flash-message-message').addClass('d-none');
+                        $('.flash-message-phone').addClass('d-none');
+                    }
+                    if (response.contactFormInquiry) {
+                        $('.flash-message-inquiry span').html(response.contactFormInquiry[0]);
+                        $('.flash-message-inquiry').removeClass('d-none');
+                    }
+                    else {
+                        $('.flash-message-inquiry').addClass('d-none');
                     }
                 }
             }

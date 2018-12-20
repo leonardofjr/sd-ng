@@ -19,7 +19,7 @@ const httpOptions = {
 })
 
 export class MailService {
-  url = 'http://startupdesigns.ca/mail';
+  url = 'http://localhost:8000/mail';
 
 
   constructor(private http: HttpClient) { }
