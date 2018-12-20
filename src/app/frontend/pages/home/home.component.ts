@@ -7,9 +7,6 @@ declare var require:any;
  
 })
 export class HomeComponent implements OnInit {
-  ourCoreValues = require('./content-our-core-values.json').ourCoreValues;
-  whyChooseUs = require('./content-why-choose-us.json').whyChooseUs;
-  content = require('./content.json');
   constructor() { }
 
   ngOnInit() {

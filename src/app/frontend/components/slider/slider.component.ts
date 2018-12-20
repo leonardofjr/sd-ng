@@ -11,7 +11,6 @@ declare var require: any;
 export class SliderComponent implements OnInit {
   companyProfile = require("src/app/company-profile.json");
   currentRoute;
-  content = require("./content.json");
   
   constructor(private router: Router) { }
 
