@@ -85,6 +85,11 @@ $(document).ready(function () {
         /* we will remove the bootstrap show class */
         $('#navbarSupportedContent').removeClass('show');
     }) 
+
+
+    $(window).on('load', function() {
+        $('#loader').addClass('d-none');
+    })
 });
 
 
